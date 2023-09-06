@@ -5,8 +5,8 @@
 	--font-body:  'Cormorant Variable', sans-serif;
 	--font-mono: 'Fira Mono', monospace;
 	--color-bg-1: hsl(0, 0%, 100%);
-	--color-theme-1: #ff3e00;
-	--color-theme-2: #4075a6;
+	--color-theme-1: #40394e;
+	--color-theme-2: #4f40a6;
 	--color-text: rgba(0, 0, 0, 0.7);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
@@ -37,10 +37,12 @@ p {
 a {
 	color: var(--color-theme-1);
 	text-decoration: none;
+  border-bottom: 1px dashed #4c4c4c;
+  padding-bottom: 3px;
 }
 
 a:hover {
-	text-decoration: underline;
+	color: var(--color-theme-2)
 }
 
 h1 {
@@ -99,3 +101,5 @@ button:focus:not(:focus-visible) {
 	width: 1px;
 	white-space: nowrap;
 }
+
+
